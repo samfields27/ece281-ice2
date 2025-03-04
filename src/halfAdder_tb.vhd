@@ -24,7 +24,7 @@ architecture test_bench of halfAdder_tb is
   port(
     i_A     : in  std_logic; -- 1-bit input port
     i_B     : in  std_logic;
-    o_Cout  : in std_logic;
+    o_Cout  : out std_logic;
     o_S     : out std_logic  -- 1-bit output port
               -- (NOTE: NO semicolon on LAST port only!)
   -- TODO:  Carry port
